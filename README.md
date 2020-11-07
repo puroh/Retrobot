@@ -1,2 +1,11 @@
 # Retrobot
-Chatbot que se dedicara a responder las preguntas de los usuarios de un servicio.
+
+Bot con Aprendizaje Automatico para preguntas y respuestas
+
+
+Bot que recibe preguntas de los usuarios clasifique y regrese una respuesta.
+
+
+
+
+
