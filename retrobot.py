@@ -6,7 +6,7 @@ from telegram import User
 
 #Librerias de chatterbot
 from chatterbot import ChatBot
-from chatterbot.trainers import ChatterBotCorpusTrainer
+from chatterbot.trainers import ChatterBotCorpusTrainer, UbuntuCorpusTrainer
 
 # Entreanmiento del bot
 
@@ -20,10 +20,13 @@ bot = ChatBot(
     #],
     database_uri='sqlite:///database.db'
 )
+
 trainer = ChatterBotCorpusTrainer(bot)
+#trainer = UbuntuCorpusTrainer(bot)
 
 trainer.train(
-    'chatterbot.corpus.english'
+    'chatterbot.corpus.english',
+    #'./dataset_1MM/'
     )  
 
 
