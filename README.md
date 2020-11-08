@@ -41,7 +41,7 @@ Comprobar la instalación de chatterbot
 python -m chatterbot --version
 ```
 
-Para iniciar el bot solo es necesario ir a la siguiente dirección y ejecutar el bot desde telegram, [rtrsofkabot](https://t.me/rtrsofkabot).
+Para iniciar el bot solo es necesario ir a la siguiente dirección y ejecutar el bot desde telegram. [@rtrsofkabot](https://t.me/rtrsofkabot).
 
 ## <div id="Contribute"></div> Como contribuir.
 
@@ -52,5 +52,9 @@ Solo haz pull request a este repositorio.
 * Python
 
 ## <div id="Resources"></div> Fuentes de información.
+- [ubuntu-ranking-dataset-creator](https://github.com/rkadlec/ubuntu-ranking-dataset-creator)
+- [Chatterbot training](https://chatterbot.readthedocs.io/en/latest/training.html#training-with-corpus-data)
+- [Chatterbot conversations](https://www.tutorialdocs.com/tutorial/chatterbot/conversations.html)
+- [Chatterbot examples](https://github.com/gunthercox/ChatterBot/tree/master/examples)
 ## <div id="License"></div> Licencia
 Licencia MIT
