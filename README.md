@@ -9,6 +9,7 @@ La idea principal es crear un entrenador, un conversador, un bot con el cual ent
 Bot que recibe preguntas de los usuarios clasifique y regrese una respuesta.
 Como proyección el bot puede ser entrenado en diferentes niveles de dominio del idioma Ingles.
 Con esto puede acomodarse a las expresiones que se desean entrenar, repasar o conversar.
+
 ## <div id="Content"></div> Contenido.
 
 
@@ -29,16 +30,19 @@ transmitir ideas, opiniones o preguntas.
 
 
 ## <div id="Started"></div> Poner en marcha el proyecto.
-Comprobar la instalación de chatterbot
-```sh
-python -m chatterbot --version
-```
 
 ```sh
 $ git clone https://github.com/puroh/Retrobot
 $ cd Retrobot
 $ python retrobot.py
 ```
+Comprobar la instalación de chatterbot
+```sh
+python -m chatterbot --version
+```
+
+Para iniciar el bot solo es necesario ir a la siguiente dirección y ejecutar el bot desde telegram, [rtrsofkabot](https://t.me/rtrsofkabot).
+
 ## <div id="Contribute"></div> Como contribuir.
 
 Solo haz pull request a este repositorio.
