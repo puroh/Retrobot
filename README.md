@@ -21,15 +21,15 @@ Bot que recibe preguntas de los usuarios clasifique y regrese una respuesta.
 
 ## <div id="Started"></div> Poner en marcha el proyecto.
 Comprobar la instalación de chatterbot 
-'''
+```sh
 python -m chatterbot --version
-'''
+```
 
-'''
+```sh
 $ git clone https://github.com/puroh/Retrobot
 $ cd Retrobot
 $ python retrobot.py
-'''
+```
 ## <div id="Contribute"></div> Como contribuir.
 
 Solo haz pull request a este repositorio.
